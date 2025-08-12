@@ -70,6 +70,8 @@ devtools::install_github("9cGU/MicroBiotR", force = TRUE)
 packageVersion("MicroBiotR")
 ```
 
+Before you run MBR_som(), please gate first [how_to_gate](gating/Gating.R)
+
 ## SOM analysis
 ```markdown
 # load libraries
@@ -77,8 +79,6 @@ library(MicroBiotR)
 library(linkET)
 library(Biobase)
 library(flowCore)
-
-# Before you run MBR_som(), please gate first [how_to_gate](gating/Gating.R)
 
 # SOM analysis
 MBR_som(fl_data_ig)
