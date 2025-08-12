@@ -78,14 +78,17 @@ library(linkET)
 library(Biobase)
 library(flowCore)
 
-# load matadata
-meta<-read.delim('meta.txt',header = T, row.names = 1)
+***Before you run MBR_som(), please gate first [how_to_gate](gating/Gating.R)***
+
 # SOM analysis
 MBR_som(fl_data_ig)
 ```
 
 ## Statistics
 ```markdown
+# load matadata
+meta<-read.delim('meta.txt',header = T, row.names = 1)
+
 # test type should be one of 'wilcoxon', 'kruskal', 'anova' ,'ttest'
 # correction could be one of 'none', 'fdr', 'bonferroni' ,'BH'
 MBR_stat(data = count_table, group_col = 'Group', meta_data = meta, 
