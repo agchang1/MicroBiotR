@@ -70,7 +70,10 @@ devtools::install_github("9cGU/MicroBiotR", force = TRUE)
 packageVersion("MicroBiotR")
 ```
 
-Before you run MBR_som(), please gate first [how_to_gate](gating/Gating.R)
+
+
+
+***Before you run MBR_som(), please gate first [how_to_gate](gating/Gating.R)***
 
 ## SOM analysis
 ```markdown
