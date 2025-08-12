@@ -78,7 +78,7 @@ library(linkET)
 library(Biobase)
 library(flowCore)
 
-***Before you run MBR_som(), please gate first [how_to_gate](gating/Gating.R)***
+# Before you run MBR_som(), please gate first [how_to_gate](gating/Gating.R)
 
 # SOM analysis
 MBR_som(fl_data_ig)
