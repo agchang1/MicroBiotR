@@ -62,8 +62,7 @@ BiocManager::install("flowCore")
 
 ```
 
-
-You can install the released version of `MicroBiotR` from [GitHub](https://github.com/9cGU/MicroBiotR) with the following R commands:
+You can install the released version of `MicroBiotR` from [GitHub](https://github.com/agchang1/MicroBiotR) with the following R commands:
 
 ```markdown
 # install.packages("devtools")
